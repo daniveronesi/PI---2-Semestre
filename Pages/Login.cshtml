@@ -1,0 +1,106 @@
+﻿@page
+@model InnovaAgroTech.Pages.LoginModel
+@{
+}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" media="(max-width: 800px)" href="altura-max800.css">
+    <link rel="stylesheet" href="./css/log.css">
+    <title>INNOVA AGRO TECH</title>
+</head>
+
+<body>
+    <nav class="navbar bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="./index.html" style="font-weight: bold; color:#273617">INNOVA AGRO TECH</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+                    aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                 aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Innova Agro Tech</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./Carrossel">Início</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./Produtos">Produtos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./Objetivos">Objetivos da Empresa</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./Sobre">Sobre nós</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./Login">Login</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./Contato">Fale Conosco</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./Cultivador">Cadastro</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./AgroTeam">Equipe Agro Team</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <main>
+        <div class="background-image"></div>
+        <div class="login-container">
+            <h2>Login</h2>
+            <form id="login-form">
+                <input type="text" id="username" placeholder="Username">
+                <input type="password" id="password" placeholder="Password">
+                <button type="submit">Login</button>
+            </form>
+        </div>
+    </main>
+    <script src="./bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        document.getElementById('login-form').addEventListener('submit', function (event) {
+            event.preventDefault();
+            const username = document.getElementById('username').value;
+            const password = document.getElementById('password').value;
+
+            // Lista de usuários e senhas
+            const users = [
+                { username: "daniele", password: "senha123" },
+                { username: "nicoly", password: "senha456" },
+                { username: "raphael", password: "senha789" },
+                { username: "vinicius", password: "senha357" }
+            ];
+
+            // Verificar usuário e senha
+            const userFound = users.find(function (user) {
+                return user.username === username && user.password === password;
+            });
+
+            if (userFound) {
+                // Armazenar estado de login
+                localStorage.setItem('isLoggedIn', 'true');
+                window.location.href = './Index';
+            } else {
+                alert('Nome de usuário ou senha incorretos');
+            }
+        });
+    </script>
+</body>
+
+</html>

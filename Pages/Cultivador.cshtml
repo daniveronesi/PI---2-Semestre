@@ -1,0 +1,323 @@
+﻿@page
+@model InnovaAgroTech.Models.Cultivador
+@{
+}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" media="(max-width: 800px)" href="altura-max800.css">
+    <link rel="stylesheet" href="./css/cad.css">
+    <title>INNOVA AGRO TECH</title>
+    <script>
+        function toggleFields() {
+            const role = document.getElementById("role").value;
+            const producerFields = document.getElementById("producerFields");
+            const consultantFields = document.getElementById("consultantFields");
+
+            if (role === "producer") {
+                producerFields.classList.remove("hidden");
+                consultantFields.classList.add("hidden");
+            } else if (role === "consultant") {
+                producerFields.classList.add("hidden");
+                consultantFields.classList.remove("hidden");
+            } else {
+                producerFields.classList.add("hidden");
+                consultantFields.classList.add("hidden");
+            }
+        }
+    </script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fff;
+            display: flex;
+            align-items: center; /* Centraliza verticalmente */
+            justify-content: center; /* Centraliza horizontalmente */
+            min-height: 100vh; /* Garante que o body ocupe toda a altura da viewport */
+        }
+
+        .navbar {
+            margin-bottom: 20px;
+        }
+
+        .navbar-brand {
+            font-weight: bold;
+            color: #273617;
+        }
+
+        h1 {
+            font-weight: bold;
+            color: #273617;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            font-weight: bold;
+            color: #273617;
+            text-align: center;
+        }
+
+        main {
+            width: 90%;
+            max-width: 500px;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            background-color: #fff;
+            overflow-y: auto; /* Adiciona barra de rolagem vertical quando necessário */
+            max-height: 80vh; /* Altura máxima do main para evitar ocupar toda a tela */
+            position: relative;
+            z-index: 2;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            align-items: center; /* Centraliza itens verticalmente */
+            justify-content: center;
+        }
+
+        label {
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+
+        input,
+        select {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box; /* Garante que o padding não afeta a largura total */
+        }
+
+        .hidden {
+            display: none;
+        }
+
+        .background-image {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: url('../images/23.jpg');
+            /* Verifique o caminho da imagem */
+            background-size: cover;
+            background-position: center;
+            z-index: 1;
+        }
+
+            .background-image::before {
+                content: "";
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background-color: rgba(0, 0, 0, 0.5);
+                z-index: 1;
+            }
+
+        .button {
+            background-color: #273617;
+            color: white;
+            border: none;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+
+            width: 100%;
+            margin-bottom: 10px;
+            padding: 10px;
+            box-sizing: border-box;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+
+        .login-container {
+            width: 300px;
+            padding: 20px;
+            border-radius: 5px;
+            background-color: rgba(255, 255, 255, 0.8);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+
+    </style>
+</head>
+
+<body>
+    <div class="background-image"></div>
+    <nav class="navbar bg-body-tertiary fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="./index.html">INNOVA AGRO TECH</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+                aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Innova Agro Tech</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./Carrossel">Início</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./Produtos">Produtos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./Objetivos">Objetivos da Empresa</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./Sobre">Sobre nós</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./Login">Login</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./Contato">Fale Conosco</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./Cultivador">Cadastro</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./AgroTeam">Equipe Agro Team</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./ListaCultivador">Lista de Fornecedores/Consultores</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <main>
+        <form>
+            <h1>Cadastro</h1>
+            <select id="role" name="role" onchange="toggleFields()">
+                <option value="">Selecione</option>
+                <option value="producer">Produtor</option>
+                <option value="consultant">Consultor</option>
+            </select>
+
+            <div id="producerFields" class="hidden">
+                <h2>Dados do Produtor</h2>
+                <label for="producerName">Nome:</label>
+                <input type="text" id="producerName" name="producerName">
+                <span asp-validation-for="Nome" class="text-danger"></span>
+
+                <label for="cnpj">CNPJ:</label>
+                <input type="text" id="cnpj" name="cnpj">
+                <span asp-validation-for="CNPJ" class="text-danger"></span>
+
+
+                <label for="propertyName">Nome da Propriedade</label>
+                <input type="text" id="propertyName" name="propertyName">
+                <span asp-validation-for="NomeProp" class="text-danger"></span>
+
+                <label for="phone">Celular:</label>
+                <input type="text" id="phone" name="phone">
+                <span asp-validation-for="Telefone" class="text-danger"></span>
+
+
+                <label for="propertyAddress">Endereço da Propriedade<br /> Logradouro:</label>
+                <input type="text" id="propertyStreet" name="propertyStreet">
+                <span asp-validation-for="Logradouro" class="text-danger"></span>
+
+                <label for="propertyAddress">Complemento</label>
+                <input type="text" id="propertyComp" name="propertyComp">
+                <span asp-validation-for="Complemento" class="text-danger"></span>
+
+                <label for="propertyAddress">Número</label>
+                <input type="text" id="propertyNum" name="propertyNum">
+                <span asp-validation-for="Numero" class="text-danger"></span>
+
+                <label for="propertyAddress">Cidade</label>
+                <input type="text" id="propertyCity" name="propertyCity">
+                <span asp-validation-for="Cidade" class="text-danger"></span>
+
+                <label for="propertyAddress">Estado</label>
+                <input type="text" id="propertyState" name="propertyState">
+                <span asp-validation-for="Estado" class="text-danger"></span>
+
+                <label for="propertyAddress">CEP</label>
+                <input type="text" id="propertyPC" name="propertyPC">
+                <span asp-validation-for="CEP" class="text-danger"></span>
+
+                
+
+                <label for="crops">O que cultiva:</label>
+                <div id="crops">
+                    <input type="checkbox" id="soja" name="crops" value="soja">
+                    <label for="soja" style="display: inline-block; margin-right: 10px;">Soja</label>
+                    <input type="checkbox" id="cana" name="crops" value="cana">
+                    <label for="cana" style="display: inline-block; margin-right: 10px;">Cana de açúcar</label>
+                    <input type="checkbox" id="cafe" name="crops" value="cafe">
+                    <label for="cafe" style="display: inline-block; margin-right: 10px;">Café</label>
+                    <input type="checkbox" id="milho" name="crops" value="milho">
+                    <label for="milho" style="display: inline-block; margin-right: 10px;">Milho</label>
+                    <input type="checkbox" id="feijao" name="crops" value="feijao">
+                    <label for="feijao" style="display: inline-block;">Feijão</label>
+                </div>
+                <div class="login-container">
+                    <button type="submit">Cadastrar</button>
+                </div>
+            </div>
+
+            <div id="consultantFields" class="hidden">
+                <h2>Dados do Consultor</h2>
+                <label for="consultantName">Nome:</label>
+                <input type="text" id="consultantName" name="consultantName">
+                <span asp-validation-for="Nome" class="text-danger"></span>
+
+                <label for="birthDate">Data de Nascimento:</label>
+                <input type="date" id="birthDate" name="birthDate">
+                <span asp-validation-for="Data_Nasc" class="text-danger"></span>
+
+                <label for="cpf">CPF:</label>
+                <input type="text" id="cpf" name="cpf">
+                <span asp-validation-for="CPF" class="text-danger"></span>
+
+                <label for="crea">Registro CONFEA/CREA:</label>
+                <input type="text" id="crea" name="crea">
+                <span asp-validation-for="Registro_Conselho" class="text-danger"></span>
+
+                <label for="specialty">Especialidades:</label>
+                <div id="specialty">
+                    <input type="checkbox" id="maquina" name="specialty" value="maquina">
+                    <label for="maquina" style="display: inline-block; margin-right: 10px;">Máquina Agrícola</label>
+                    <span asp-validation-for="Categoria" class="text-danger"></span>
+                    <input type="checkbox" id="plantio" name="specialty" value="plantio">
+                    <label for="plantio" style="display: inline-block; margin-right: 10px;">Plantio</label>
+                    <span asp-validation-for="Categoria" class="text-danger"></span>
+                    <input type="checkbox" id="preparacao" name="specialty" value="preparacao">
+                    <label for="preparacao" style="display: inline-block; margin-right: 10px;">Preparação de Terra</label>
+                    <span asp-validation-for="Categoria" class="text-danger"></span>
+                    <input type="checkbox" id="lavoura" name="specialty" value="lavoura">
+                    <label for="lavoura" style="display: inline-block;">Lavoura</label>
+                    <span asp-validation-for="Categoria" class="text-danger"></span>
+                </div>
+                <div class="login-container">
+                    <button type="submit">Cadastrar</button>
+                </div>
+            </div>
+        </form>
+    </main>
+</body>
+
+</html>

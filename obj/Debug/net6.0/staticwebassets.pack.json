@@ -1,0 +1,433 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\user\\Desktop\\INNOVA\\InnovaAgroTech\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\InnovaAgroTech.bundle.scp.css",
+      "PackagePath": "staticwebassets\\InnovaAgroTech.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\INNOVA\\InnovaAgroTech\\wwwroot\\css\\agroteam.css",
+      "PackagePath": "staticwebassets\\css\\agroteam.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\INNOVA\\InnovaAgroTech\\wwwroot\\css\\cad.css",
+      "PackagePath": "staticwebassets\\css\\cad.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\INNOVA\\InnovaAgroTech\\wwwroot\\css\\form.css",
+      "PackagePath": "staticwebassets\\css\\form.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\INNOVA\\InnovaAgroTech\\wwwroot\\css\\log.css",
+      "PackagePath": "staticwebassets\\css\\log.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\INNOVA\\InnovaAgroTech\\wwwroot\\css\\objetivosstyle.css",
+      "PackagePath": "staticwebassets\\css\\objetivosstyle.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\INNOVA\\InnovaAgroTech\\wwwroot\\css\\prod.css",
+      "PackagePath": "staticwebassets\\css\\prod.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\INNOVA\\InnovaAgroTech\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\INNOVA\\InnovaAgroTech\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\INNOVA\\InnovaAgroTech\\wwwroot\\css\\stylecustom.css",
+      "PackagePath": "staticwebassets\\css\\stylecustom.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\INNOVA\\InnovaAgroTech\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\INNOVA\\InnovaAgroTech\\wwwroot\\images\\01.jpg",
+      "PackagePath": "staticwebassets\\images\\01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\INNOVA\\InnovaAgroTech\\wwwroot\\images\\02.jpg",
+      "PackagePath": "staticwebassets\\images\\02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\INNOVA\\InnovaAgroTech\\wwwroot\\images\\03.png",
+      "PackagePath": "staticwebassets\\images\\03.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\INNOVA\\InnovaAgroTech\\wwwroot\\images\\04.jpg",
+      "PackagePath": "staticwebassets\\images\\04.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\INNOVA\\InnovaAgroTech\\wwwroot\\images\\05.jpg",
+      "PackagePath": "staticwebassets\\images\\05.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\INNOVA\\InnovaAgroTech\\wwwroot\\images\\06.jpg",
+      "PackagePath": "staticwebassets\\images\\06.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\INNOVA\\InnovaAgroTech\\wwwroot\\images\\07.jpg",
+      "PackagePath": "staticwebassets\\images\\07.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\INNOVA\\InnovaAgroTech\\wwwroot\\images\\08.jpg",
+      "PackagePath": "staticwebassets\\images\\08.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\INNOVA\\InnovaAgroTech\\wwwroot\\images\\09.jpg",
+      "PackagePath": "staticwebassets\\images\\09.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\INNOVA\\InnovaAgroTech\\wwwroot\\images\\10.jpg",
+      "PackagePath": "staticwebassets\\images\\10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\INNOVA\\InnovaAgroTech\\wwwroot\\images\\11.jpg",
+      "PackagePath": "staticwebassets\\images\\11.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\INNOVA\\InnovaAgroTech\\wwwroot\\images\\12.jpg",
+      "PackagePath": "staticwebassets\\images\\12.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\INNOVA\\InnovaAgroTech\\wwwroot\\images\\13.jpg",
+      "PackagePath": "staticwebassets\\images\\13.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\INNOVA\\InnovaAgroTech\\wwwroot\\images\\14.png",
+      "PackagePath": "staticwebassets\\images\\14.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\INNOVA\\InnovaAgroTech\\wwwroot\\images\\15.png",
+      "PackagePath": "staticwebassets\\images\\15.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\INNOVA\\InnovaAgroTech\\wwwroot\\images\\16.jpg",
+      "PackagePath": "staticwebassets\\images\\16.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\INNOVA\\InnovaAgroTech\\wwwroot\\images\\17.jpg",
+      "PackagePath": "staticwebassets\\images\\17.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\INNOVA\\InnovaAgroTech\\wwwroot\\images\\18.jpg",
+      "PackagePath": "staticwebassets\\images\\18.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\INNOVA\\InnovaAgroTech\\wwwroot\\images\\19.jpg",
+      "PackagePath": "staticwebassets\\images\\19.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\INNOVA\\InnovaAgroTech\\wwwroot\\images\\20.jpg",
+      "PackagePath": "staticwebassets\\images\\20.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\INNOVA\\InnovaAgroTech\\wwwroot\\images\\21.jpg",
+      "PackagePath": "staticwebassets\\images\\21.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\INNOVA\\InnovaAgroTech\\wwwroot\\images\\22.jpg",
+      "PackagePath": "staticwebassets\\images\\22.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\INNOVA\\InnovaAgroTech\\wwwroot\\images\\23.jpg",
+      "PackagePath": "staticwebassets\\images\\23.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\INNOVA\\InnovaAgroTech\\wwwroot\\images\\24.jpg",
+      "PackagePath": "staticwebassets\\images\\24.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\INNOVA\\InnovaAgroTech\\wwwroot\\images\\25.jpg",
+      "PackagePath": "staticwebassets\\images\\25.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\INNOVA\\InnovaAgroTech\\wwwroot\\images\\26.jpg",
+      "PackagePath": "staticwebassets\\images\\26.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\INNOVA\\InnovaAgroTech\\wwwroot\\images\\27.jpg",
+      "PackagePath": "staticwebassets\\images\\27.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\INNOVA\\InnovaAgroTech\\wwwroot\\images\\28.jpg",
+      "PackagePath": "staticwebassets\\images\\28.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\INNOVA\\InnovaAgroTech\\wwwroot\\images\\dani.jpeg",
+      "PackagePath": "staticwebassets\\images\\dani.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\INNOVA\\InnovaAgroTech\\wwwroot\\images\\logo-transparente.png",
+      "PackagePath": "staticwebassets\\images\\logo-transparente.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\INNOVA\\InnovaAgroTech\\wwwroot\\images\\nicoly.jpeg",
+      "PackagePath": "staticwebassets\\images\\nicoly.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\INNOVA\\InnovaAgroTech\\wwwroot\\images\\rapha.jpeg",
+      "PackagePath": "staticwebassets\\images\\rapha.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\INNOVA\\InnovaAgroTech\\wwwroot\\images\\vini.jpeg",
+      "PackagePath": "staticwebassets\\images\\vini.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\INNOVA\\InnovaAgroTech\\wwwroot\\js\\script.js",
+      "PackagePath": "staticwebassets\\js\\script.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\INNOVA\\InnovaAgroTech\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\INNOVA\\InnovaAgroTech\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\INNOVA\\InnovaAgroTech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\INNOVA\\InnovaAgroTech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\INNOVA\\InnovaAgroTech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\INNOVA\\InnovaAgroTech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\INNOVA\\InnovaAgroTech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\INNOVA\\InnovaAgroTech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\INNOVA\\InnovaAgroTech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\INNOVA\\InnovaAgroTech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\INNOVA\\InnovaAgroTech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\INNOVA\\InnovaAgroTech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\INNOVA\\InnovaAgroTech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\INNOVA\\InnovaAgroTech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\INNOVA\\InnovaAgroTech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\INNOVA\\InnovaAgroTech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\INNOVA\\InnovaAgroTech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\INNOVA\\InnovaAgroTech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\INNOVA\\InnovaAgroTech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\INNOVA\\InnovaAgroTech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\INNOVA\\InnovaAgroTech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\INNOVA\\InnovaAgroTech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\INNOVA\\InnovaAgroTech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\INNOVA\\InnovaAgroTech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\INNOVA\\InnovaAgroTech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\INNOVA\\InnovaAgroTech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\INNOVA\\InnovaAgroTech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\INNOVA\\InnovaAgroTech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\INNOVA\\InnovaAgroTech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\INNOVA\\InnovaAgroTech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\INNOVA\\InnovaAgroTech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\INNOVA\\InnovaAgroTech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\INNOVA\\InnovaAgroTech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\INNOVA\\InnovaAgroTech\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\INNOVA\\InnovaAgroTech\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\INNOVA\\InnovaAgroTech\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\INNOVA\\InnovaAgroTech\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\INNOVA\\InnovaAgroTech\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\INNOVA\\InnovaAgroTech\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\INNOVA\\InnovaAgroTech\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\INNOVA\\InnovaAgroTech\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\INNOVA\\InnovaAgroTech\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\INNOVA\\InnovaAgroTech\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\INNOVA\\InnovaAgroTech\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\INNOVA\\InnovaAgroTech\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\INNOVA\\InnovaAgroTech\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\INNOVA\\InnovaAgroTech\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\INNOVA\\InnovaAgroTech\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\INNOVA\\InnovaAgroTech\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\INNOVA\\InnovaAgroTech\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\INNOVA\\InnovaAgroTech\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\INNOVA\\InnovaAgroTech\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\INNOVA\\InnovaAgroTech\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\INNOVA\\InnovaAgroTech\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\INNOVA\\InnovaAgroTech\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\INNOVA\\InnovaAgroTech\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\INNOVA\\InnovaAgroTech\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\INNOVA\\InnovaAgroTech\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.InnovaAgroTech.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.InnovaAgroTech.props",
+      "PackagePath": "build\\InnovaAgroTech.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.InnovaAgroTech.props",
+      "PackagePath": "buildMultiTargeting\\InnovaAgroTech.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.InnovaAgroTech.props",
+      "PackagePath": "buildTransitive\\InnovaAgroTech.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

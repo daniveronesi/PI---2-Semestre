@@ -1,0 +1,164 @@
+﻿@page
+@model InnovaAgroTech.Pages.ObjetivosModel
+@{
+}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" media="(max-width: 800px)" href="altura-max800.css">
+    <link rel="stylesheet" href="./css/objetivosstyle.css">
+    <title>INNOVA AGRO TECH</title>
+</head>
+
+<body>
+
+    <nav class="navbar bg-body-tertiary fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="./index.html" style="font-weight: bold; color:#273617">INNOVA AGRO TECH</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+                    aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                 aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Innova Agro Tech</h5>
+                    <img src="./images/logo-transparente.png" alt="Bootstrap" width="30" height="24">
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./Carrossel">Início</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./Produtos">Produtos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./Objetivos">Objetivos da Empresa</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./Sobre">Sobre nós</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./Login">Login</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./Contato">Fale Conosco</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./Cultivador">Cadastro</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./AgroTeam">Equipe Agro Team</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+            <div class="card h-100">
+                <img src="./images/16.jpg" class="card-img-top" alt="">
+                <div class="card-body">
+                    <h5 class="card-title">Aumentar a Produção</h5>
+                    <p class="card-text">
+                        Nossos sistemas de monitoramento e análise de dados otimizam o uso de recursos,
+                        permitindo que os
+                        agricultores produzam mais com menos.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100">
+                <img src="./images/17.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Reduzir Custos</h5>
+                    <p class="card-text">
+                        Nossas soluções automatizadas e de precisão diminuem o desperdício de insumos,
+                        gerando
+                        economia
+                        significativa para os clientes.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100">
+                <img src="./images/18.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Promover Sustentabilidade</h5>
+                    <p class="card-text">
+                        Desenvolvemos tecnologias que diminuem o impacto ambiental, preservando os
+                        recursos naturais para as
+                        próximas gerações.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="./bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js"></script>
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const isLoggedIn = localStorage.getItem("isLoggedIn");
+        const menuCadastro = document.getElementById("menu-cadastro");
+
+        if (isLoggedIn === "true") {
+            menuCadastro.style.display = "block";
+        } else {
+            menuCadastro.style.display = "none";
+        }
+    });
+
+    function attemptLogin(event) {
+        event.preventDefault();
+        const username = document.getElementById('username').value;
+        const password = document.getElementById('password').value;
+
+        // Lista de usuários e senhas
+        const users = [
+            { username: "daniele", password: "senha123" },
+            { username: "nicoly", password: "senha456" },
+            { username: "raphael", password: "senha789" },
+            { username: "maicon", password: "senha159" },
+            { username: "vinicius", password: "senha357" }
+        ];
+
+        // Verificar usuário e senha
+        const userFound = users.find(function (user) {
+            return user.username === username && user.password === password;
+        });
+
+        if (userFound) {
+            // Armazenar estado de login
+            localStorage.setItem('isLoggedIn', 'true');
+            window.location.href = './index.html';
+        } else {
+            alert('Nome de usuário ou senha incorretos');
+        }
+    }
+
+    document.addEventListener("DOMContentLoaded", function () {
+        const isLoggedIn = localStorage.getItem("isLoggedIn");
+        const menuCadastro = document.getElementById("menu-cadastro");
+
+        if (isLoggedIn === "true") {
+            menuCadastro.style.display = "block";
+        } else {
+            menuCadastro.style.display = "none";
+        }
+    });
+</script>
+
+</html>
